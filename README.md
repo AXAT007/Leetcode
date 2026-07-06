@@ -49,4 +49,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0077-combinations](https://github.com/AXAT007/Leetcode/tree/master/0077-combinations) |
+## Math
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/AXAT007/Leetcode/tree/master/0069-sqrtx) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/AXAT007/Leetcode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
