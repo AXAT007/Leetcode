@@ -2,7 +2,7 @@ class MyHashSet {
      ArrayList<ArrayList<Integer>> hashset=new ArrayList<>();
     public MyHashSet() {
        
-        for(int i=0;i<10;i++){
+        for(int i=0;i<769;i++){
             hashset.add(new ArrayList<>());
         }
     }
