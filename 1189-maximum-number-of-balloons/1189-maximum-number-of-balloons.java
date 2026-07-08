@@ -9,7 +9,7 @@ class Solution {
         for(int i=0;i<text.length();i++){
             char c=text.charAt(i);
             if(c=='b'||c=='a'||c=='l'|| c=='o'|| c=='n'){
-            map.put(c,map.getOrDefault(c,0)+1);
+            map.put(c,map.get(c)+1);
             }
         }   
         int count=0;
