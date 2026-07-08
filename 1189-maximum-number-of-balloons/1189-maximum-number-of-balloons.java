@@ -13,7 +13,19 @@ class Solution {
             }
         }   
         int count=0;
-        int i=0;
+        int min_char=Integer.MAX_VALUE;
+        for(char c:map.keySet()){
+            if(c=='l'||(c)=='o'){
+                min_char=Math.min(min_char,(map.get(c)/2));
+            }else{
+                min_char=Math.min(min_char,map.get(c));
+            }
+        }
+        return min_char;
+
+
+        // old approach remove each balloon 1 by 1 now getting the smallest count 
+        /*
         while(map.get('a')>0&&map.get('b')>0&&map.get('l')>1&&map.get('o')>1&&map.get('n')>0){
             map.put('n',map.get('n')-1);
             map.put('o',map.get('o')-2);
@@ -23,5 +35,6 @@ class Solution {
             count++;
         }
         return count;
+        */
     }
 }
