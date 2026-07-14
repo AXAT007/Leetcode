@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0705-design-hashset](https://github.com/AXAT007/Leetcode/tree/master/0705-design-hashset) |
 | [0912-sort-an-array](https://github.com/AXAT007/Leetcode/tree/master/0912-sort-an-array) |
 | [1207-unique-number-of-occurrences](https://github.com/AXAT007/Leetcode/tree/master/1207-unique-number-of-occurrences) |
+| [1552-magnetic-force-between-two-balls](https://github.com/AXAT007/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 ## Hash Table
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
 | [0912-sort-an-array](https://github.com/AXAT007/Leetcode/tree/master/0912-sort-an-array) |
+| [1552-magnetic-force-between-two-balls](https://github.com/AXAT007/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -74,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/AXAT007/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/AXAT007/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0410-split-array-largest-sum](https://github.com/AXAT007/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [1552-magnetic-force-between-two-balls](https://github.com/AXAT007/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 ## Queue
 |  |
 | ------- |
