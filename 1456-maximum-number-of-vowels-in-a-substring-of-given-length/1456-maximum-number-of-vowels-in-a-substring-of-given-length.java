@@ -19,6 +19,7 @@ class Solution {
                 }
                 i++;
             }
+            if(ans==k) return ans;
         }
         return ans;
     }
