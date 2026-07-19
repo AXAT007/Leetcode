@@ -10,9 +10,8 @@ class Solution {
         if(last!=nums.length){
             last++;
         }
-        for(int i=0;i<=last;i++){
-            maxSum+=i;
-        }
+        maxSum=last * (last + 1) / 2;
+      
         return maxSum-currSum;
     }
 }
