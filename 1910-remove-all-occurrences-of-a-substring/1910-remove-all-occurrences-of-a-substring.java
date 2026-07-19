@@ -11,13 +11,13 @@ class Solution {
              sb.append(s.charAt(i));
              int t=0;
             if((sb.charAt(sb.length()-1)==part.charAt(part.length()-1)) && sb.length() >=part.length()){
-                StringBuilder temp=new StringBuilder();
+                // StringBuilder temp=new StringBuilder();
                 t=sb.length()-1;
                 j=part.length()-1;
                 while(j>=0 && t>=0){
                     if(sb.charAt(t)==part.charAt(j)){
-                        temp.append(sb.charAt(t));
-                        sb.deleteCharAt(t);
+                        // temp.append(sb.charAt(t));
+                        // sb.deleteCharAt(t);
                         t--;
                         j--;
                     }
@@ -25,10 +25,8 @@ class Solution {
                         break;
                     }
                 }
-                if(j>-1){
-                    for(int a=temp.length()-1;a>=0;a--){
-                        sb.append(temp.charAt(a));
-                    }
+                if(j==-1){
+                    sb.setLength(sb.length() - part.length());
                 }
             }
             i++;
