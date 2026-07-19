@@ -1,34 +1,18 @@
-
-//   CYCLIC SORT 
-
-
 class Solution {
     public int missingNumber(int[] nums) {
-        int i=0;
-        while(i<nums.length ){
-            if(nums[i]==nums.length){
-                
-            }
-            else if(nums[i]!=i){
-                swap(nums,i,nums[i]);
-            }
-            if(nums[i]==i || nums[i]==nums.length){
-                i++;
-            }
+        int last=0;
+        int currSum=0;
+        int maxSum=0;
+        for(int val:nums){
+            currSum+=val;
+            last=Math.max(last,val);
         }
-     
-
-    for( i=0;i<nums.length;i++){
-            if(nums[i]!=i){
-                return i;
-            }
+        if(last!=nums.length){
+            last++;
         }
-        return nums.length;
-    }
-
-    void swap(int [] nums,int i ,int j){
-        int t=nums[i];
-        nums[i]=nums[j];
-        nums[j]=t;
+        for(int i=0;i<=last;i++){
+            maxSum+=i;
+        }
+        return maxSum-currSum;
     }
 }
