@@ -21,10 +21,9 @@ class Solution {
             }
         }
         StringBuilder ans=new StringBuilder();
-        int n=stack.size();
-        for(  i=0;i<n;i++){
-            ans.append(stack.pop());
-        }
+        while (!stack.isEmpty()) {
+    ans.append(stack.pop());
+}
         return ans.toString();
     }
 }
