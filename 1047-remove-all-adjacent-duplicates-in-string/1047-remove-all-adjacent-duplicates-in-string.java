@@ -1,6 +1,6 @@
 class Solution {
      static{
-        for(int i=1;i<500;i++)removeDuplicates("");
+        for(int i=1;i<1000;i++)removeDuplicates("");
     }
     public static String removeDuplicates(String s) {
         StringBuilder ans=new StringBuilder();
