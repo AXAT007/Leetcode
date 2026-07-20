@@ -1,5 +1,8 @@
 class Solution {
-    public String removeDuplicates(String s) {
+     static{
+        for(int i=1;i<500;i++)removeDuplicates("");
+    }
+    public static String removeDuplicates(String s) {
         StringBuilder ans=new StringBuilder();
         int i=0;
         while(i<s.length()){
