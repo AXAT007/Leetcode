@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0041-first-missing-positive](https://github.com/AXAT007/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
+| [0205-isomorphic-strings](https://github.com/AXAT007/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/AXAT007/Leetcode/tree/master/0268-missing-number) |
 | [0383-ransom-note](https://github.com/AXAT007/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/AXAT007/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
+| [0205-isomorphic-strings](https://github.com/AXAT007/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/AXAT007/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/AXAT007/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AXAT007/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
