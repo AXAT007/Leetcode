@@ -8,10 +8,9 @@ class Solution {
             char b=t.charAt(i);
             if((map.containsKey(a)&& map.get(a)!=b)||(map1.containsKey(b)&& map1.get(b)!=a)){
                 return false;
-            }else{
-                map1.put(b,a);
-                map.put(a,b);
             }
+            map.putIfAbsent(a, b);
+            map1.putIfAbsent(b, a);  
         }
         return true;
     }
