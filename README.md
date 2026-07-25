@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/AXAT007/Leetcode/tree/master/0645-set-mismatch) |
 | [0912-sort-an-array](https://github.com/AXAT007/Leetcode/tree/master/0912-sort-an-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/AXAT007/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
+| [3536-maximum-product-of-two-digits](https://github.com/AXAT007/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/AXAT007/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/AXAT007/Leetcode/tree/master/0268-missing-number) |
+| [3536-maximum-product-of-two-digits](https://github.com/AXAT007/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 ## Binary Search
 |  |
 | ------- |
