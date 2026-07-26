@@ -14,13 +14,13 @@ class Solution {
                 int t=l1;
                 l1=nums[i];
                 int t2=l2;
-                l2=Math.max(t,l2);
-                l3=Math.max(t2,l3);
+                l2=t;
+                l3=t2;
             }
             else if(nums[i]>l2){
                 int t=l2;
                 l2=nums[i];
-                l3=Math.max(t,l3);
+                l3=t;
             }
             else if(nums[i]>l3){
                 l3=nums[i];
@@ -28,7 +28,7 @@ class Solution {
             if(nums[i]<s1){
                 int t=s1;
                 s1=nums[i];
-                s2=Math.min(s2,t);
+                s2=t;
             }
             else if(nums[i]<s2){
                 s2=nums[i];
