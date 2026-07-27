@@ -9,7 +9,7 @@ class Solution {
         }
         else{
             count--;
-            if(count==-1){
+            if(count==0){
                 curr=val;
                 count=1;
             }
