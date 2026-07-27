@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/AXAT007/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/AXAT007/Leetcode/tree/master/0078-subsets) |
+| [0238-product-of-array-except-self](https://github.com/AXAT007/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/AXAT007/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/AXAT007/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/AXAT007/Leetcode/tree/master/0410-split-array-largest-sum) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/AXAT007/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0410-split-array-largest-sum](https://github.com/AXAT007/Leetcode/tree/master/0410-split-array-largest-sum) |
 ## Interactive
 |  |
