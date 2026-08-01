@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/AXAT007/Leetcode/tree/master/0078-subsets) |
 | [0169-majority-element](https://github.com/AXAT007/Leetcode/tree/master/0169-majority-element) |
+| [0219-contains-duplicate-ii](https://github.com/AXAT007/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/AXAT007/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/AXAT007/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/AXAT007/Leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/AXAT007/Leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/AXAT007/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0219-contains-duplicate-ii](https://github.com/AXAT007/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/AXAT007/Leetcode/tree/master/0268-missing-number) |
 | [0383-ransom-note](https://github.com/AXAT007/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/AXAT007/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/AXAT007/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AXAT007/Leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Stack
 |  |
