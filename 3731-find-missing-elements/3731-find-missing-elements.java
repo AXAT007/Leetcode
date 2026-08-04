@@ -9,7 +9,7 @@ class Solution {
             smallest=Math.min(smallest,val);
         }
         List<Integer> ans=new ArrayList<>();
-        for(int i=smallest;i<=largest;i++){
+        for(int i=smallest+1;i<largest;i++){
             if(!set.contains(i)){
                 ans.add(i);
             }
