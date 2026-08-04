@@ -10,8 +10,11 @@ class Solution {
         List<Integer> ans=new ArrayList<>();
         int x=nums[0];
         int i=0;
-        while(i<nums.length){
-            if(nums[i]==x){
+        while(x<=largest){
+            if(i>=nums.length){
+                ans.add(x);
+            }
+            else if(nums[i]==x){
                 i++;
             }
             else{
