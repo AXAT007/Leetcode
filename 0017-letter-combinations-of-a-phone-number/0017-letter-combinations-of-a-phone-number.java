@@ -17,23 +17,25 @@ class Solution {
 }
     
         StringBuilder sb=new StringBuilder();
-        List<String> ans=new ArrayList<>();
-        solve(digits,ans,sb,0);
+        List<String> ans=solve(digits,sb,0);
+        
         return ans;
     }
 
-    void solve(String digits,List<String> ans,StringBuilder sb,int j){
+    List<String> solve(String digits,StringBuilder sb,int j){
+        List<String> ans=new ArrayList<>();
         if(j==digits.length()){
             ans.add( sb.toString());
-            return;
+            return ans;
         }
 
         String letters = map[digits.charAt(j) - '0'];
         for(int i=0;i< letters.length();i++){
             
             sb.append(letters.charAt(i));
-            solve(digits,ans,sb,j+1);
+            ans.addAll(solve(digits,sb,j+1));
             sb.deleteCharAt(sb.length() - 1);
         }
+        return ans;
     }
 }
