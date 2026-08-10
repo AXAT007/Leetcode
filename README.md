@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/AXAT007/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/AXAT007/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
+| [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 | [3731-find-missing-elements](https://github.com/AXAT007/Leetcode/tree/master/3731-find-missing-elements) |
 ## Hash Table
 |  |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/AXAT007/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Memoization
 |  |
 | ------- |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/AXAT007/Leetcode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
+| [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Algorithm X
 |  |
 | ------- |
@@ -244,4 +247,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/AXAT007/Leetcode/tree/master/0037-sudoku-solver) |
+## Depth-First Search
+|  |
+| ------- |
+| [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 <!---LeetCode Topics End-->
