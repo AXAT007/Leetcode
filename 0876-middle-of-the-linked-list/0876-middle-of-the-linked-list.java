@@ -13,24 +13,17 @@ class Solution {
         if(head.next==null){
             return head;
         }
-        return f(head,new ListNode(1),1);
+        return f(head,head);
     }
-    ListNode f(ListNode h,ListNode c,int l){
+    ListNode f(ListNode slow,ListNode fast){
 
-        if(h.next==null){
-            if(c.val/2+1==l){
-            return h;
+        if(fast==null||fast.next==null){
+            return slow;
         }
-            return new ListNode(-1);
-        }
-        c.val+=1;
-        ListNode next=f(h.next,c,l+1);
-        if(next.val!=-1){
-            return next;
-        }
-        if(c.val/2+1==l){
-            return h;
-        }
+        
+        ListNode next=f(slow.next,fast.next.next);
+
+
         
         return next;
 
