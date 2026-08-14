@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/AXAT007/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/AXAT007/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0383-ransom-note](https://github.com/AXAT007/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/AXAT007/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0069-sqrtx](https://github.com/AXAT007/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0070-climbing-stairs) |
+| [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0268-missing-number](https://github.com/AXAT007/Leetcode/tree/master/0268-missing-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/AXAT007/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [3536-maximum-product-of-two-digits](https://github.com/AXAT007/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AXAT007/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/AXAT007/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/AXAT007/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
 ## Floyd's Cycle Finding Algorithm
 |  |
