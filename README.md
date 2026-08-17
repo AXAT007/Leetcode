@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AXAT007/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/AXAT007/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/AXAT007/Leetcode/tree/master/0169-majority-element) |
+| [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [0219-contains-duplicate-ii](https://github.com/AXAT007/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/AXAT007/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/AXAT007/Leetcode/tree/master/0268-missing-number) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/AXAT007/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/AXAT007/Leetcode/tree/master/0547-number-of-provinces) |
 ## Matrix
 |  |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/AXAT007/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/AXAT007/Leetcode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
+| [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Algorithm X
@@ -262,11 +265,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/AXAT007/Leetcode/tree/master/0547-number-of-provinces) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/AXAT007/Leetcode/tree/master/0547-number-of-provinces) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Recursion
