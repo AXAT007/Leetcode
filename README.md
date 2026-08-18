@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/AXAT007/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AXAT007/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/AXAT007/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0605-can-place-flowers](https://github.com/AXAT007/Leetcode/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/AXAT007/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/AXAT007/Leetcode/tree/master/0645-set-mismatch) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/AXAT007/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AXAT007/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0410-split-array-largest-sum](https://github.com/AXAT007/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0746-min-cost-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 ## Greedy
 |  |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/AXAT007/Leetcode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/AXAT007/Leetcode/tree/master/0733-flood-fill) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
@@ -276,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AXAT007/Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AXAT007/Leetcode/tree/master/0733-flood-fill) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
