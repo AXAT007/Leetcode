@@ -13,7 +13,8 @@ class Solution {
                     int node=q.poll();
                     
                     for(int j:adj[node]){
-                        int col=getColor(colors[node]);
+                        // int col=getColor(colors[node]);
+                         int col=1 - colors[node];
                         if(colors[j]==-1){
                             colors[j]=col;
                             q.offer(j);
@@ -29,10 +30,10 @@ class Solution {
         }
         return true;
     }
-    int getColor(int col){
-        if(col==0){
-            return 1;
-        }
-        return 0;
-    }
+    // int getColor(int col){
+    //     if(col==0){
+    //         return 1;
+    //     }
+    //     return 0;
+    // }
 }
