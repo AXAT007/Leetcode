@@ -9,16 +9,15 @@ class Solution {
         for(int [] pre: prerequisites){
             adj.get(pre[1]).add(pre[0]);
             deg[pre[0]]++;
-            
-        
         }
+        
         Queue<Integer> q=new ArrayDeque<>();
-        boolean [] visited=new boolean[V];
-        ArrayList<Integer> ans=new ArrayList<>();
-        for(int i=0;i<V;i++){
-            if(deg[i]==0&&!visited[i]){
+        for (int i = 0; i < V; i++) {
+            if (deg[i] == 0) {
                 q.offer(i);
-                visited[i]=true;
+            }
+        }
+        ArrayList<Integer> ans=new ArrayList<>();
                 while(!q.isEmpty()){
 
                     int x=q.poll();
@@ -27,13 +26,9 @@ class Solution {
                         deg[val]--;
                         if(deg[val]==0){
                             q.offer(val);
-                            visited[val]=true;
-
                         }
                     }
-                }           
-            }
-        }
+                }          
     if(ans.size()!=V) return new int[0];     
         int[] result = new int[ans.size()];
         for (int i = 0; i < ans.size(); i++) {
