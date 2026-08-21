@@ -1,45 +1,44 @@
 class Solution {
-    public int[] findOrder(int numCourses, int[][] prerequisites) {
+    public int[] findOrder(int V, int[][] prerequisites) {
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
-        int V=numCourses;
+        int [] deg=new int[V];
+        
         for (int i=0;i<V;i++){
             adj.add(new ArrayList<>());
         }
         for(int [] pre: prerequisites){
             adj.get(pre[1]).add(pre[0]);
+            deg[pre[0]]++;
+            
+        
         }
-        Stack<Integer> st=new Stack<>();
+        Queue<Integer> q=new ArrayDeque<>();
         boolean [] visited=new boolean[V];
-        boolean [] path=new boolean[V];
+        ArrayList<Integer> ans=new ArrayList<>();
         for(int i=0;i<V;i++){
-            if(!visited[i]){
-                if(isCycle(adj,visited,path,i,st)){
-                    return new int[0];
-                }
+            if(deg[i]==0&&!visited[i]){
+                q.offer(i);
+                visited[i]=true;
+                while(!q.isEmpty()){
+
+                    int x=q.poll();
+                    ans.add(x);
+                    for(int val:adj.get(x)){
+                        deg[val]--;
+                        if(deg[val]==0){
+                            q.offer(val);
+                            visited[val]=true;
+
+                        }
+                    }
+                }           
             }
         }
-        int i=0;
-        int [] ans=new int[st.size()];
-        while(!st.isEmpty()){
-            ans[i++]=st.pop();
+    if(ans.size()!=V) return new int[0];     
+        int[] result = new int[ans.size()];
+        for (int i = 0; i < ans.size(); i++) {
+            result[i] = ans.get(i);
         }
-        return ans;
-    }
-    boolean isCycle(ArrayList<ArrayList<Integer>> adj,boolean [] visited,boolean [] path,int node,Stack<Integer> st){
-        visited[node]=true;
-        path[node]=true;
-        for(int i:adj.get(node)){
-            if(!visited[i]){
-                if(isCycle(adj,visited,path,i,st)){
-                    return true;
-                }
-            }
-            if(path[i]){
-                return true;
-            }
-        }
-        path[node]=false;
-        st.push(node);
-        return false;        
-    }
+        return result;
+    } 
 }
