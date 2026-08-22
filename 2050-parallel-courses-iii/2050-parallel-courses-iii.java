@@ -2,11 +2,8 @@
 class Solution {
     public int minimumTime(int n, int[][] relations, int[] time) {
         int [] deg=new int[n+1];
-        HashMap<Integer,Integer> map=new HashMap<>();
+        int [] map=new int[n+1];
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
-        for(int i=1;i<=n;i++){
-            map.put(i,0);
-        }
         for(int i=0;i<=n;i++){
             adj.add(new ArrayList<>());
         }
@@ -20,7 +17,7 @@ class Solution {
 
         for(int i=1;i<n+1;i++){
             if(deg[i]==0){
-                map.put(i,Math.max(time[i-1],map.get(i)));
+                map[i]=time[i-1];
                 q.offer(i);
             }
         }
@@ -28,10 +25,10 @@ class Solution {
     
             while(!q.isEmpty()){
                 int node=q.poll();
-                    ans=Math.max(ans,map.get(node)); 
+                ans=Math.max(ans,map[node]); 
                 for(int val:adj.get(node)){
-                    if(map.get(val)<map.get(node)+time[val-1]){
-                        map.put(val,map.get(node)+time[val-1]);
+                    if(map[val] < map[node]+time[val-1]){
+                        map[val]=map[node]+time[val-1];
                     }
                     deg[val]--;
                     if(deg[val]==0){
