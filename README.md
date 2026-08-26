@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/AXAT007/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/AXAT007/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
+| [0127-word-ladder](https://github.com/AXAT007/Leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/AXAT007/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/AXAT007/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/AXAT007/Leetcode/tree/master/0169-majority-element) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/AXAT007/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
+| [0127-word-ladder](https://github.com/AXAT007/Leetcode/tree/master/0127-word-ladder) |
 | [0205-isomorphic-strings](https://github.com/AXAT007/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0383-ransom-note](https://github.com/AXAT007/Leetcode/tree/master/0383-ransom-note) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/AXAT007/Leetcode/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/AXAT007/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AXAT007/Leetcode/tree/master/0210-course-schedule-ii) |
@@ -352,4 +355,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/AXAT007/Leetcode/tree/master/0207-course-schedule) |
 | [2050-parallel-courses-iii](https://github.com/AXAT007/Leetcode/tree/master/2050-parallel-courses-iii) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/AXAT007/Leetcode/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
