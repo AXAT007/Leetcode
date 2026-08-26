@@ -19,8 +19,8 @@ class Solution {
                         }
                         if(set.contains(curr)){
                             q.offer(curr);
-                        }
                         set.remove(curr);
+                        }
                     }
                 }
                 size--;
