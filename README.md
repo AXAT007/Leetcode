@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/AXAT007/Leetcode/tree/master/0645-set-mismatch) |
 | [0705-design-hashset](https://github.com/AXAT007/Leetcode/tree/master/0705-design-hashset) |
 | [0733-flood-fill](https://github.com/AXAT007/Leetcode/tree/master/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/AXAT007/Leetcode/tree/master/0735-asteroid-collision) |
 | [0746-min-cost-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0912-sort-an-array](https://github.com/AXAT007/Leetcode/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/AXAT007/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
@@ -236,12 +237,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
+| [0735-asteroid-collision](https://github.com/AXAT007/Leetcode/tree/master/0735-asteroid-collision) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AXAT007/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/AXAT007/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Simulation
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
+| [0735-asteroid-collision](https://github.com/AXAT007/Leetcode/tree/master/0735-asteroid-collision) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/AXAT007/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Memoization
