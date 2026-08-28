@@ -13,7 +13,7 @@ class Solution {
                 
                 // both +
                 
-                if((y>0&&x>0 )|| y<0 || (y<0&&x<0)){
+                if((y>0&&x>0 )|| y<0 ){
                     st.push(x);
                     i++;
                 }
@@ -29,8 +29,7 @@ class Solution {
 
                     // st has + a
                     else if(x*-1>y){
-                        st.pop();
-                        // st.push(x);
+                        st.pop(); 
                     } 
                     else{
                         i++;
