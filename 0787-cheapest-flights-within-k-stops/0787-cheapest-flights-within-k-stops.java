@@ -36,11 +36,12 @@ Queue<Tuple> pq=new ArrayDeque<>();
      pq.offer(new Tuple(src,0,0));
 
 while ( !pq.isEmpty()) {
+
     int node = pq.peek().a;
     int wt = pq.peek().wt;
     int stop=pq.peek().stops;
     pq.poll();
-
+    if (stop > k) continue;
     for (Pair p : adj.get(node)) {
         int total_wt = wt + p.wt;
  
