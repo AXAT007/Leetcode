@@ -29,6 +29,7 @@ int ans = Integer.MAX_VALUE;
 
 while (k > -1 && !pq.isEmpty()) {
     int size=pq.size();
+    int[] temp = Arrays.copyOf(cost, n);
     while(size>0){
     int node = pq.peek().a;
     int wt = pq.peek().wt;
@@ -41,12 +42,13 @@ while (k > -1 && !pq.isEmpty()) {
         //     ans = Math.min(ans, total_wt);
         // } else {
             if(cost[p.a]>total_wt){
-                cost[p.a]=total_wt;
+                temp[p.a]=total_wt;
                 pq.offer(new Pair(p.a, total_wt));
 
             }
         // }
     }
+    cost=temp;
     size--;
     }
     k--;
