@@ -6,6 +6,16 @@ class Pair{
         wt=b;
     }
 }
+class Tuple{
+    int a;
+    int wt;
+    int stops;
+    Tuple(int a,int b,int s){
+        this.a=a;
+        wt=b;
+        stops=s;
+    }
+}
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         
@@ -22,40 +32,26 @@ class Solution {
             int wt=i[2];
             adj.get(node).add(new Pair(neigb,wt));
         }
-Queue<Pair> pq=new ArrayDeque<>();
-        // PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> a.wt - b.wt);
-        pq.offer(new Pair(src,0));
-int ans = Integer.MAX_VALUE;
+Queue<Tuple> pq=new ArrayDeque<>();
+     pq.offer(new Tuple(src,0,0));
 
-while (k > -1 && !pq.isEmpty()) {
-    int size=pq.size();
-    int[] temp = Arrays.copyOf(cost, n);
-    while(size>0){
+while ( !pq.isEmpty()) {
     int node = pq.peek().a;
     int wt = pq.peek().wt;
+    int stop=pq.peek().stops;
     pq.poll();
 
     for (Pair p : adj.get(node)) {
         int total_wt = wt + p.wt;
-
-        // if (p.a == dst) {
-        //     ans = Math.min(ans, total_wt);
-        // } else {
-            if(temp[p.a]>total_wt){
-                temp[p.a]=total_wt;
-                pq.offer(new Pair(p.a, total_wt));
+ 
+            if(stop<=k&&cost[p.a]>total_wt){
+                cost[p.a]=total_wt;
+                pq.offer(new Tuple(p.a, total_wt,stop+1));
 
             }
-        // }
     }
-    size--;
-    }
-    
-    cost=temp;
-    k--;
-}
-ans=cost[dst];
-if(ans==Integer.MAX_VALUE) return -1;
-return ans;
+} 
+if(cost[dst]==Integer.MAX_VALUE) return -1;
+return cost[dst];
     }
 }
