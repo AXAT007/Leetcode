@@ -37,20 +37,21 @@ while (k > -1 && !pq.isEmpty()) {
     for (Pair p : adj.get(node)) {
         int total_wt = wt + p.wt;
 
-        if (p.a == dst) {
-            ans = Math.min(ans, total_wt);
-        } else {
+        // if (p.a == dst) {
+        //     ans = Math.min(ans, total_wt);
+        // } else {
             if(cost[p.a]>total_wt){
                 cost[p.a]=total_wt;
                 pq.offer(new Pair(p.a, total_wt));
 
             }
-        }
+        // }
     }
     size--;
     }
     k--;
 }
+ans=cost[dst];
 if(ans==Integer.MAX_VALUE) return -1;
 return ans;
     }
