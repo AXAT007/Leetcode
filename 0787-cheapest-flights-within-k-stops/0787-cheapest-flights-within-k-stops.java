@@ -41,16 +41,17 @@ while (k > -1 && !pq.isEmpty()) {
         // if (p.a == dst) {
         //     ans = Math.min(ans, total_wt);
         // } else {
-            if(cost[p.a]>total_wt){
+            if(temp[p.a]>total_wt){
                 temp[p.a]=total_wt;
                 pq.offer(new Pair(p.a, total_wt));
 
             }
         // }
     }
-    cost=temp;
     size--;
     }
+    
+    cost=temp;
     k--;
 }
 ans=cost[dst];
