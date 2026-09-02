@@ -13,18 +13,16 @@ class Solution {
         if(head==null){
             return head;
         }
-        ListNode ans=new ListNode(0);        
-        rec(head,ans);
-         return ans.next;
-    }
-    ListNode rec(ListNode curr,ListNode nHead){
-        if(curr.next==null){
-              nHead.next=curr;
-            return curr;
-        }
-        ListNode next=rec(curr.next,nHead);
-        next.next=curr;
-        curr.next=null;
-        return curr;
+        ListNode prev=null;
+        ListNode curr=head;
+        ListNode next=new ListNode(-1);
+        while(curr!=null){
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+
+            curr=next;
+        }  
+        return prev;
     }
 }
