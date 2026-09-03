@@ -37,6 +37,7 @@ class Solution {
 
     if(nr == grid.length - 1 && nc == grid[0].length - 1) {
         ans = Math.min(ans, nwt);
+        return ans;
     }
     else if(nr >= 0 && nc >= 0 &&
             nr < grid.length && nc < grid[0].length &&
