@@ -17,6 +17,7 @@ class Solution {
             int node=pq.peek()[0];
             int dis=pq.peek()[1];
             pq.poll();
+            if(dis > dist[node]) continue;
             for(int [] a:adj.get(node)){
                 int nd=dis+a[1];
                 if(nd<dist[a[0]]){
