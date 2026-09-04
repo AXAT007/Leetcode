@@ -3,8 +3,7 @@ class Solution {
         
         int n=grid.length;
         int m=grid[0].length;
-        // boolean [][] visited=new boolean[n][m];
-        int [][] dist=new int[n][m];
+           int [][] dist=new int[n][m];
         for(int []d:dist){
             Arrays.fill(d,Integer.MAX_VALUE);
         }
@@ -13,8 +12,7 @@ class Solution {
         int [] getCol={0,-1,0,1};
         PriorityQueue<int []> q=new PriorityQueue<>((a,b)->a[2]-b[2]);
         q.offer(new int[]{0,0,grid[0][0]});
-        // int ans=grid[0][0];
-        // visited[0][0]=true;
+      
         while(!q.isEmpty()){
             int r=q.peek()[0];
             int c=q.peek()[1];
@@ -23,9 +21,7 @@ class Solution {
             if(dis>grid[r][c]){
 
             }
-            // visited[r][c]=true;
             q.poll();
-            // int []min={0,0,Integer.MAX_VALUE};
             for(int i=0;i<4;i++){
                 int nr=r+getRow[i];
                 int nc=c+getCol[i];
