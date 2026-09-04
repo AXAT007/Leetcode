@@ -17,7 +17,7 @@ class Solution {
             int r=q.peek()[0];
             int c=q.peek()[1];
             int dis=q.peek()[2];
-            if(r==n-1 && c== m-1) return dis;;
+            if(r==n-1 && c== m-1) return dis;
             if(dis>dist[r][c]) continue;
             q.poll();
             for(int i=0;i<4;i++){
