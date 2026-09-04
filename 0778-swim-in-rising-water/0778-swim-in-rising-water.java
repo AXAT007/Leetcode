@@ -18,9 +18,7 @@ class Solution {
             int c=q.peek()[1];
             int dis=q.peek()[2];
             if(r==n-1 && c== m-1) return dis;;
-            if(dis>grid[r][c]){
-
-            }
+            if(dis>dist[r][c]) continue;
             q.poll();
             for(int i=0;i<4;i++){
                 int nr=r+getRow[i];
