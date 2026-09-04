@@ -23,9 +23,12 @@ class Solution {
             for(int i=0;i<4;i++){
                 int nr=r+getRow[i];
                 int nc=c+getCol[i];
-                 if(nr>=0 && nc>=0 && nr<n && nc<m && dist[nr][nc] >Math.max(dis,grid[nr][nc]) ){     
-                    q.offer(new int[]{nr,nc,Math.max(dis,grid[nr][nc])});
-                    dist[nr][nc]=Math.max(dis,grid[nr][nc]);
+                 if(nr>=0 && nc>=0 && nr<n && nc<m   ){
+                    int nextDis = Math.max(dis, grid[nr][nc]);
+                    if (nextDis < dist[nr][nc]) {
+                        dist[nr][nc] = nextDis;
+                        q.offer(new int[]{nr, nc, nextDis});
+                    }
                 }
             }
         }
