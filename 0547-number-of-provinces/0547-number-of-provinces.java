@@ -1,6 +1,41 @@
 class Solution {
+    public void unionByRank(int [] parent,int [] rank,int u,int v){
+        int pu=findParent(parent,u);
+    int pv=findParent(parent,v);
+    if(pu==pv){
+      // will form cycle , Do nothing
+      return  ;
+    }
+    int ru=rank[pu];
+    int rv=rank[pv];
+    if(ru==rv){
+      parent[pv]=pu;
+      rank[pu]++;
+    }
+    else if(ru<rv){
+      parent[pu]=pv;
+    }
+    else{
+      parent[pv]=pu;
+    }
+    return ;
+  }  
+  
+public int findParent(int [] parent,int node){
+    if(node==parent[node]){
+      return node;  
+    }
+    return parent[node]=findParent(parent,parent[node]);
+ }
+
     public int findCircleNum(int[][] isConnected) {
-        boolean [] visited=new boolean[isConnected.length];
+        
+        int V=isConnected.length;
+         int [] rank=new int[V+1];
+         int [] parent=new int[V+1];
+        for(int i=0;i<=V;i++){
+            parent[i]=i;
+         }
         ArrayList<ArrayList<Integer>> list=new ArrayList<>();
         for(int i=0;i< isConnected.length;i++){
             list.add(new ArrayList<>());
@@ -13,25 +48,17 @@ class Solution {
                 }
             }
         }
-        int count =0;
-        ArrayDeque<Integer> q=new ArrayDeque<>();
-        for(int i=0;i<isConnected.length;i++){
-            if(!visited[i]){
-                
-                q.offer(i);
-                visited[i]=true;
-                while(!q.isEmpty()){
-                    int x=q.poll();
-                    for(int val:list.get(x)){
-                        if(!visited[val]){
-                            q.offer(val);
-                            visited[val]=true;
-                        }
-                    }
-                }
-                count++;
+        for(int u=0;u<V;u++){
+            for(int v:list.get(u)){
+                unionByRank(parent,rank,u,v);
             }
         }
-        return count;
+        int count =0;
+        HashSet<Integer> set=new HashSet<>();
+       for(int i = 0; i < V; i++){
+    set.add(findParent(parent, i));
+       }
+        return set.size();
     }
+     
 }
