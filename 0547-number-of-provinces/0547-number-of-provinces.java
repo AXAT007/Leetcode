@@ -36,21 +36,12 @@ public int findParent(int [] parent,int node){
         for(int i=0;i<=V;i++){
             parent[i]=i;
          }
-        ArrayList<ArrayList<Integer>> list=new ArrayList<>();
-        for(int i=0;i< isConnected.length;i++){
-            list.add(new ArrayList<>());
-        }
-        for(int i=0;i< isConnected.length;i++){
-            for(int j=0;j<isConnected[i].length;j++){
-                if(isConnected[i][j]==1&& i!=j){
-                    list.get(i).add(j);
-                    list.get(j).add(i);
-                }
-            }
-        }
+       
         for(int u=0;u<V;u++){
-            for(int v:list.get(u)){
-                unionByRank(parent,rank,u,v);
+            for(int v=u+1;v<V;v++){
+               if(isConnected[u][v] == 1){
+            unionByRank(parent, rank, u, v);
+        }
             }
         }
         int count =0;
