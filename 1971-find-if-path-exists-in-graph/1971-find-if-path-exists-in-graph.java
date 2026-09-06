@@ -10,7 +10,12 @@ class Solution {
         }
         boolean [] visited=new boolean[n];
         // return dfs(adj,visited,source,destination);
+        return bfs(adj,visited,source,destination);
 
+        
+    }
+
+    boolean bfs(ArrayList<ArrayList<Integer>> adj ,boolean [] visited,int source, int destination){
         Queue<Integer> q=new ArrayDeque<>();
         q.offer(source);
         visited[source]=true;
@@ -24,10 +29,6 @@ class Solution {
                 }    
             }
         }
-        return false;
-    }
-
-    boolean bfs(){
         return false;
     }
     boolean dfs(ArrayList<ArrayList<Integer>> adj ,boolean [] visited,int s,int d){
