@@ -26,10 +26,10 @@ class Solution {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
 
         if(source==destination )return true;
-        ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
-        for(int i=0;i<n;i++){
-            adj.add(new ArrayList<>());
-        }
+        // ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
+        // for(int i=0;i<n;i++){
+        //     adj.add(new ArrayList<>());
+        // }
         // for(int []e :edges){
         //     adj.get(e[0]).add(e[1]);
         //     adj.get(e[1]).add(e[0]);
@@ -37,24 +37,22 @@ class Solution {
         // boolean [] visited=new boolean[n];
         // return dfs(adj,visited,source,destination);
         // return bfs(adj,visited,source,destination);
-        return DSU_unionFind(adj,edges,n,source,destination);
+        return DSU_unionFind(edges,n,source,destination);
     }
 
-    boolean DSU_unionFind(ArrayList<ArrayList<Integer>> adj ,int [][] edges,int n,int src, int dest){
-        for(int []e :edges){
-            adj.get(e[0]).add(e[1]);
-        }
+    boolean DSU_unionFind(int [][] edges,int n,int src, int dest){
+
         int[] rank=new int[n];
         int[] parent=new int[n];
         for(int i=0;i<n;i++){
             parent[i]=i;
         }
-        for(int u=0;u<n;u++){
-            for(int v:adj.get(u)){
-                unionByRank(parent,rank,u,v);
-                if(getParent(parent,src)==getParent(parent,dest)){
-                    return true;
-                }
+        for(int []e:edges){
+            int u=e[0];
+            int v=e[1];
+            unionByRank(parent,rank,u,v);
+            if(getParent(parent,src)==getParent(parent,dest)){
+                return true;
             }
         }
         return false;
