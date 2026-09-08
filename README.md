@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/AXAT007/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/AXAT007/Leetcode/tree/master/0645-set-mismatch) |
 | [0705-design-hashset](https://github.com/AXAT007/Leetcode/tree/master/0705-design-hashset) |
+| [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AXAT007/Leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/AXAT007/Leetcode/tree/master/0735-asteroid-collision) |
 | [0746-min-cost-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AXAT007/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0645-set-mismatch](https://github.com/AXAT007/Leetcode/tree/master/0645-set-mismatch) |
 | [0705-design-hashset](https://github.com/AXAT007/Leetcode/tree/master/0705-design-hashset) |
+| [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [0997-find-the-town-judge](https://github.com/AXAT007/Leetcode/tree/master/0997-find-the-town-judge) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/AXAT007/Leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/AXAT007/Leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/AXAT007/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/AXAT007/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
+| [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AXAT007/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/AXAT007/Leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/AXAT007/Leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -105,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/AXAT007/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0628-maximum-product-of-three-numbers](https://github.com/AXAT007/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/AXAT007/Leetcode/tree/master/0645-set-mismatch) |
+| [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [0912-sort-an-array](https://github.com/AXAT007/Leetcode/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/AXAT007/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/AXAT007/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -270,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/AXAT007/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/AXAT007/Leetcode/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/AXAT007/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/AXAT007/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/AXAT007/Leetcode/tree/master/1020-number-of-enclaves) |
@@ -306,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/AXAT007/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AXAT007/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/AXAT007/Leetcode/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AXAT007/Leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/AXAT007/Leetcode/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/AXAT007/Leetcode/tree/master/0778-swim-in-rising-water) |
@@ -326,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/AXAT007/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AXAT007/Leetcode/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AXAT007/Leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/AXAT007/Leetcode/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/AXAT007/Leetcode/tree/master/0778-swim-in-rising-water) |
