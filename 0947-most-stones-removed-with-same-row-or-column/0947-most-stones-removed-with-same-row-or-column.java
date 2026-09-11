@@ -90,17 +90,16 @@ class Solution {
         // System.out.println(" ans : "+ ans);
         // System.out.println(" count : "+ count);
 
-        int ans=0;
-        int count=0;
+
+        int uParent=0;
         for(int i=0;i<parent.length;i++){
             if(parent[i]==-1) continue;
-            else if(parent[i]==i) count++;
-            else ans++;
+            else if(parent[i]==i) uParent++;
         }
 
         // System.out.println(" ans : "+ ans);
         // System.out.println(" count : "+ count);
 
-        return stones.length-count;
+        return stones.length-uParent;
     }
 }
