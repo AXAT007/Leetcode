@@ -41,64 +41,66 @@ class Solution {
         rank = new int[n + m];
         Arrays.fill(parent, -1);
 
-        int components = 0;
+        // int components = 0;
 
-        for (int[] e : stones) {
+        // for (int[] e : stones) {
 
-            int u = e[0];
-            int v = e[1] + n;
+        //     int u = e[0];
+        //     int v = e[1] + n;
 
-            if (parent[u] == -1) {
-                parent[u] = u;
-                components++;
+        //     if (parent[u] == -1) {
+        //         parent[u] = u;
+        //         components++;
+        //     }
+
+        //     if (parent[v] == -1) {
+        //         parent[v] = v;
+        //         components++;
+        //     }
+
+        //     if (union(u, v)) {
+        //         components--;
+        //     }
+        // }
+
+        // return stones.length - components;
+
+        for(int []e :stones){
+
+            int u=e[0];
+            int v=e[1]+n;
+            if(parent[u]==-1){
+                parent[u]=u;
             }
-
-            if (parent[v] == -1) {
-                parent[v] = v;
-                components++;
+            if(parent[v]==-1){
+                parent[v]=v;
             }
+            union(u,v);
 
-            if (union(u, v)) {
-                components--;
-            }
+            // if(union(u,v)){
+            //     ans++;
+            //     System.out.println(" could not connect ");
+            // }
+            // else{
+            //     count++;
+            //     System.out.println(" connect ");
+            // }
         }
 
-        return stones.length - components;
-
-        // int ans=0;
-        // int count=0;
-        // for(int []e :stones){
-
-        //     int u=e[0];
-        //     int v=e[1]+n;
-        //     if(parent[u]==-1){
-        //         parent[u]=u;
-        //     }
-        //     if(parent[v]==-1){
-        //         parent[v]=v;
-        //     }
-        //     if(union(u,v)){
-        //         ans++;
-        //         System.out.println(" could not connect ");
-        //     }
-        //     else{
-        //         count++;
-        //         System.out.println(" connect ");
-        //     }
-        // }
-
-        // System.out.println(" ans : "+ ans);
-        // System.out.println(" count : "+ count);
-        // count=0;
-        // ans=0;
-        // for(int i=0;i<parent.length;i++){
-        //     if(parent[i]==-1) continue;
-        //     else if(parent[i]==i) count++;
-        //     else ans++;
-        // }
         // System.out.println(" ans : "+ ans);
         // System.out.println(" count : "+ count);
 
-        // return stones.length-count;
+        int ans=0;
+        int count=0;
+        for(int i=0;i<parent.length;i++){
+            if(parent[i]==-1) continue;
+            else if(parent[i]==i) count++;
+            else ans++;
+        }
+
+        // System.out.println(" ans : "+ ans);
+        // System.out.println(" count : "+ count);
+
+        return stones.length-count;
     }
 }
