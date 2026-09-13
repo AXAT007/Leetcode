@@ -2,19 +2,17 @@ class Solution {
     public String reverseVowels(String s) {
         int i=0;
         int j=s.length()-1;
-        char[] arr=new char[s.length()];
-
+        // char[] arr=new char[s.length()];
+char[] arr = s.toCharArray();
         while(i<=j){
-            char c = s.charAt(i);
-            char d = s.charAt(j);
+            char c = arr[i];
+            char d = arr[j];
             
                
             if(!isVowel(Character.toLowerCase(c))){
-                arr[i]=c;
                 i++;
             }
             else if(!isVowel(Character.toLowerCase(d))){
-                arr[j]=d;
                 j--;
             }
             else{
