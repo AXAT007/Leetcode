@@ -31,8 +31,7 @@ class Solution {
         int size = n * m;
         parent = new int[size];
         rank = new int[size];
-        Arrays.fill(parent, -1);
-        int[][] mat = new int[n][m];
+        Arrays.fill(parent, -1); 
         int[] count = new int[size];
         int[] getRow = { 0, 1, -1, 0 };
         int[] getCol = { -1, 0, 0, 1 };
