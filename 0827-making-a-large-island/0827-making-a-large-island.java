@@ -13,13 +13,10 @@ class Solution {
         int pv = findParent(v);
         if (pu == pv)
             return true;
-        if (dsize[pu] == dsize[pv]) {
-            parent[pv] = pu;
-            dsize[pu] += dsize[pv];
-        } else if (dsize[pu] > dsize[pv]) {
-            parent[pv] = pu;
-            dsize[pu] += dsize[pv];
+        if (dsize[pu] >= dsize[pv]) {
 
+            dsize[pu] += dsize[pv];
+            parent[pv] = pu;
         } else {
             dsize[pv] += dsize[pu];
 
