@@ -89,8 +89,7 @@ class Solution {
                             continue;
                         }
                         int c = m * ni + nj;
-                        if (parent[c] == -1)
-                            continue;
+                         
                         int root = findParent(c);
                         if (set.add(root)) {
                             val += count[root];
