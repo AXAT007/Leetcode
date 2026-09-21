@@ -1,38 +1,78 @@
 class Solution {
+    int parent[];
+    int[] rank;
+
+    int findParent(int i) {
+        if (i == parent[i])
+            return i;
+        return parent[i] = findParent(parent[i]);
+    }
+
+    boolean union(int u, int v) {
+        int pu = findParent(u);
+        int pv = findParent(v);
+        if (pu == pv)
+            return true;
+        if (rank[pu] == rank[pv]) {
+            parent[pv] = pu;
+            rank[pu]++;
+        } else if (rank[pu] > rank[pv]) {
+            parent[pv] = pu;
+        } else {
+            parent[pu] = pv;
+        }
+        return false;
+    }
+
     public int numIslands(char[][] grid) {
-         
-        int count =0;
-        Queue<int []> q=new ArrayDeque<>();
-        boolean [][] visited=new boolean[grid.length][grid[0].length];
-        int [][] getCell= { {0,-1},{0,1},{-1,0},{1,0}};
-        for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[i].length;j++){
-                if(grid[i][j]=='1'&& !visited[i][j]){
-                    count++;
-                    q.offer(new int[]{i,j});
-                    visited[i][j]=true;
-                    while(!q.isEmpty()){
-                        int r=q.peek()[0];
-                        int c=q.peek()[1];
-                        q.poll();
-                        for(int k=0;k<4;k++){
-                            int nr=r+getCell[k][0];
-                            int nc=c+getCell[k][1];
-                            if(isValid(grid,nr,nc,visited)){
-                                q.offer(new int[]{nr,nc});
-                                visited[nr] [nc]=true;
-                            }
+
+        int count = 0;
+        int n = grid.length;
+        int m = grid[0].length;
+        int size = n * m;
+        parent = new int[size];
+        rank = new int[size];
+        Arrays.fill(parent, -1);
+
+        // int ones=0;
+        // for(char[] i:grid){
+        //     for(char j:i){
+        //         if(j=='1') ones++;
+        //     }
+        // }
+        // int [][] edges= new int[count][2];
+        int[] getRow = { 0, 1, -1, 0 };
+        int[] getCol = { -1, 0, 0, 1 };
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == '1') {
+                     
+                    int curr = m * i + j;
+                    if (parent[curr] == -1) {
+                        parent[curr] = curr;
+                        count++;
+
+                    }
+                    for (int k = 0; k < 4; k++) {
+                        int ni = i + getRow[k];
+                        int nj = j + getCol[k];
+                        if (ni < 0 || nj < 0 || ni >= n || nj >= m || grid[ni][nj] == '0')
+                            continue;
+
+                        int next = m * ni + nj;
+                        if (parent[next] == -1) {
+                            count++;
+
+                            parent[next] = next;
+                        }
+                        if (!union(curr, next)) {
+                            count--;
                         }
                     }
                 }
             }
         }
         return count;
-    }
-    public boolean isValid(char[][] grid,int i,int j,boolean [][] visited){
-        if(i<0||j<0||i>=grid.length||j>=grid[i].length||grid[i][j]=='0'||visited[i][j]){
-            return false;
-        }
-        return true;
     }
 }
