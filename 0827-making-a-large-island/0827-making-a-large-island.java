@@ -1,6 +1,6 @@
 class Solution {
     int parent[];
-    int[] rank;
+    int[] dsize;
 
     int findParent(int i) {
         if (i == parent[i])
@@ -8,18 +8,23 @@ class Solution {
         return parent[i] = findParent(parent[i]);
     }
 
-    boolean union(int u, int v) {
+    boolean unionBySize(int u, int v) {
         int pu = findParent(u);
         int pv = findParent(v);
         if (pu == pv)
             return true;
-        if (rank[pu] == rank[pv]) {
+        if (dsize[pu] == dsize[pv]) {
             parent[pv] = pu;
-            rank[pu]++;
-        } else if (rank[pu] > rank[pv]) {
+            dsize[pu] += dsize[pv];
+        } else if (dsize[pu] > dsize[pv]) {
             parent[pv] = pu;
+            dsize[pu] += dsize[pv];
+
         } else {
+            dsize[pv] += dsize[pu];
+
             parent[pu] = pv;
+
         }
         return false;
     }
@@ -30,9 +35,9 @@ class Solution {
         int m = grid[0].length;
         int size = n * m;
         parent = new int[size];
-        rank = new int[size];
-        Arrays.fill(parent, -1); 
-        int[] count = new int[size];
+        dsize = new int[size];
+        Arrays.fill(parent, -1);
+        Arrays.fill(dsize, 1);
         int[] getRow = { 0, 1, -1, 0 };
         int[] getCol = { -1, 0, 0, 1 };
 
@@ -55,16 +60,10 @@ class Solution {
                         if (parent[next] == -1) {
                             parent[next] = next;
                         }
-                        union(curr, next);
+                        unionBySize(curr, next);
                     }
                 }
             }
-        }
-        for (int i = 0; i < size; i++) {
-            if (parent[i] == -1)
-                continue;
-            int p = findParent(i);
-            count[p]++;
         }
 
         int ans = 0;
@@ -72,7 +71,7 @@ class Solution {
         for (int i = 0; i < size; i++) {
             if (parent[i] != -1) {
                 int root = findParent(i);
-                ans = Math.max(ans, count[root]);
+                ans = Math.max(ans, dsize[root]);
             }
         }
         for (int i = 0; i < n; i++) {
@@ -88,10 +87,10 @@ class Solution {
                             continue;
                         }
                         int c = m * ni + nj;
-                         
+
                         int root = findParent(c);
                         if (set.add(root)) {
-                            val += count[root];
+                            val += dsize[root];
                         }
                     }
                     ans = Math.max(val, ans);
