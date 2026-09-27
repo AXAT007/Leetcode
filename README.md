@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-parallel-courses-iii](https://github.com/AXAT007/Leetcode/tree/master/2050-parallel-courses-iii) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/AXAT007/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 | [3731-find-missing-elements](https://github.com/AXAT007/Leetcode/tree/master/3731-find-missing-elements) |
 ## Hash Table
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/AXAT007/Leetcode/tree/master/0912-sort-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/AXAT007/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/AXAT007/Leetcode/tree/master/1631-path-with-minimum-effort) |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 ## Merge Sort
 |  |
 | ------- |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/AXAT007/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/AXAT007/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Algorithm X
 |  |
@@ -362,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1319-number-of-operations-to-make-network-connected](https://github.com/AXAT007/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/AXAT007/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/AXAT007/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Recursion
 |  |
@@ -394,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1791-find-center-of-star-graph](https://github.com/AXAT007/Leetcode/tree/master/1791-find-center-of-star-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/AXAT007/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 | [2050-parallel-courses-iii](https://github.com/AXAT007/Leetcode/tree/master/2050-parallel-courses-iii) |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 ## Graph Coloring
 |  |
 | ------- |
@@ -433,11 +438,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/AXAT007/Leetcode/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/AXAT007/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [1631-path-with-minimum-effort](https://github.com/AXAT007/Leetcode/tree/master/1631-path-with-minimum-effort) |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 ## Shortest Path
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/AXAT007/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/AXAT007/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 ## Minimax
 |  |
 | ------- |
@@ -458,4 +465,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/AXAT007/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## 0-1 BFS
+|  |
+| ------- |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AXAT007/Leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 <!---LeetCode Topics End-->
