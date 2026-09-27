@@ -35,16 +35,26 @@ class Solution {
                 int nc = c + getCell[i][1];
                 if (nr >= 0 && nc >= 0 && nr < n && nc < m) {
 
-                    if (grid[nr][nc] == 1) {
-                        if (visited[nr][nc] > dist + 1) {
-                            pq.offer(new int[] { nr, nc, dist + 1 });
-                            visited[nr][nc] = dist + 1;
-                        }
-                    } else {
-                        if (visited[nr][nc] > dist) {
-                            visited[nr][nc] = dist;
-                            pq.offer(new int[] { nr, nc, dist });
-                        }
+                    // if (grid[nr][nc] == 1) {
+                    //     if (visited[nr][nc] > dist + 1) {
+                    //         pq.offer(new int[] { nr, nc, dist + 1 });
+                    //         visited[nr][nc] = dist + 1;
+                    //     }
+                    // } else {
+                    //     if (visited[nr][nc] > dist) {
+                    //         visited[nr][nc] = dist;
+                    //         pq.offer(new int[] { nr, nc, dist });
+                    //     }
+                    // }
+                    int newDist = dist + grid[nr][nc];
+
+                    if (visited[nr][nc] > newDist) {
+
+                        visited[nr][nc] = newDist;
+
+                        pq.offer(new int[] {
+                                nr, nc, newDist
+                        });
                     }
                 }
             }
