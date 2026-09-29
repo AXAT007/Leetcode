@@ -40,13 +40,11 @@ class Solution {
     int getSum(TreeNode node){
         if(node==null) return 0;
         int curr=node.val;
-        int left=getSum(node.left);
-        // ans=Math.max(ans,left);
+        int left=getSum(node.left); 
         if(left<0){
             left=0;
         }
-        int right=getSum(node.right);
-        // ans=Math.max(ans,right);
+        int right=getSum(node.right); 
 
         if(right<0){
             right=0;
