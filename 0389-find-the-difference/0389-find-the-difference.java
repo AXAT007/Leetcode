@@ -24,20 +24,32 @@ class Solution {
         //         return c;
         // }
 
-        int [] arr=new int[26];
+        // 2
+
+        // int [] arr=new int[26];
+        // for (int i = 0; i < t.length(); i++) {
+        //     char a = t.charAt(i);
+        //     arr[a-'a']++;
+        // }
+        // for (int i = 0; i < s.length(); i++) {
+        //     char a = s.charAt(i);
+        //     arr[a-'a']--;
+        // }
+
+        // for (int i = 0; i < 26; i++) {
+        //     if(arr[i]>0 ) return(char)( 'a'+i);
+        // }
+
+        int ans = 0;
+
         for (int i = 0; i < t.length(); i++) {
-            char a = t.charAt(i);
-            arr[a-'a']++;
-        }
-        for (int i = 0; i < s.length(); i++) {
-            char a = s.charAt(i);
-            arr[a-'a']--;
-        }
-        
-        for (int i = 0; i < 26; i++) {
-            if(arr[i]>0 ) return(char)( 'a'+i);
+            ans += (int) t.charAt(i);
         }
 
-        return ' ';
+        for (int i = 0; i < s.length(); i++) {
+            ans -= (int) s.charAt(i);
+        }
+
+        return (char) ans;
     }
 }
