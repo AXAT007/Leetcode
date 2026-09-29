@@ -28,24 +28,25 @@
  *     }
  * }
  */
- /*
+//  /*
 class Solution {
     int ans=Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
-        return Math.max(ans, getSum(root));
+         getSum(root);
+         return ans;
     }
 
     int getSum(TreeNode node){
-        if(node==null) return Integer.MIN_VALUE;;
+        if(node==null) return 0;
         int curr=node.val;
         int left=getSum(node.left);
-        ans=Math.max(ans,left);
+        // ans=Math.max(ans,left);
         if(left<0){
             left=0;
         }
         int right=getSum(node.right);
-        ans=Math.max(ans,right);
+        // ans=Math.max(ans,right);
 
         if(right<0){
             right=0;
@@ -62,8 +63,8 @@ class Solution {
     }
 }
 
-*/
-// /*
+// */
+/*
 class Solution {
     int ans = Integer.MIN_VALUE;
 
@@ -95,4 +96,4 @@ class Solution {
         return curr + Math.max(left, right);
     }
 }
-// */
+*/
