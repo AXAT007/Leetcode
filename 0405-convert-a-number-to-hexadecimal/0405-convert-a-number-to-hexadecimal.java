@@ -2,11 +2,12 @@ class Solution {
     public String toHex(int num) {
         int hex = 0;
         int i = 0;
-        if(num==0) return "0";
-        
-        long x=num;
-        if(num<0){
-             x=(long) Math.pow(2,32)+num;
+        if (num == 0)
+            return "0";
+
+        long x = num;
+        if (num < 0) {
+            x = (1L << 32) + num;
         }
         char[] arr = new char[8];
         for (i = 7; i >= 0; i--) {
@@ -29,7 +30,7 @@ class Solution {
 
     char getC(long r) {
         if (r < 10)
-            return (char) ('0'+r);
+            return (char) ('0' + r);
         return (char) ('a' - 10 + r);
     }
 }
