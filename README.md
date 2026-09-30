@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/AXAT007/Leetcode/tree/master/0827-making-a-large-island) |
 | [0912-sort-an-array](https://github.com/AXAT007/Leetcode/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/AXAT007/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [0990-satisfiability-of-equality-equations](https://github.com/AXAT007/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [0997-find-the-town-judge](https://github.com/AXAT007/Leetcode/tree/master/0997-find-the-town-judge) |
 | [1020-number-of-enclaves](https://github.com/AXAT007/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/AXAT007/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/AXAT007/Leetcode/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
+| [0990-satisfiability-of-equality-equations](https://github.com/AXAT007/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AXAT007/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/AXAT007/Leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/AXAT007/Leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/AXAT007/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0827-making-a-large-island](https://github.com/AXAT007/Leetcode/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/AXAT007/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [0990-satisfiability-of-equality-equations](https://github.com/AXAT007/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1020-number-of-enclaves](https://github.com/AXAT007/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1267-count-servers-that-communicate](https://github.com/AXAT007/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/AXAT007/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -419,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/AXAT007/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/AXAT007/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/AXAT007/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [0990-satisfiability-of-equality-equations](https://github.com/AXAT007/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [0997-find-the-town-judge](https://github.com/AXAT007/Leetcode/tree/master/0997-find-the-town-judge) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/AXAT007/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/AXAT007/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
