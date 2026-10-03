@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2351-first-letter-to-appear-twice](https://github.com/AXAT007/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AXAT007/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3483-unique-3-digit-even-numbers](https://github.com/AXAT007/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3692-majority-frequency-characters](https://github.com/AXAT007/Leetcode/tree/master/3692-majority-frequency-characters) |
 | [3731-find-missing-elements](https://github.com/AXAT007/Leetcode/tree/master/3731-find-missing-elements) |
 ## String
 |  |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/AXAT007/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/AXAT007/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2351-first-letter-to-appear-twice](https://github.com/AXAT007/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
+| [3692-majority-frequency-characters](https://github.com/AXAT007/Leetcode/tree/master/3692-majority-frequency-characters) |
 ## Sorting
 |  |
 | ------- |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/AXAT007/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1267-count-servers-that-communicate](https://github.com/AXAT007/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [2351-first-letter-to-appear-twice](https://github.com/AXAT007/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
+| [3692-majority-frequency-characters](https://github.com/AXAT007/Leetcode/tree/master/3692-majority-frequency-characters) |
 ## Backtracking
 |  |
 | ------- |
