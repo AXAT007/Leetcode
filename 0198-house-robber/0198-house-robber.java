@@ -3,8 +3,22 @@ class Solution {
        int n=nums.length;
        int[] dp=new int[n] ;
        Arrays.fill(dp,-1);
-       return top_Bottom(nums,0,dp);
+
+       return bottom_Up(nums,0,dp);
+    //    return top_Bottom(nums,0,dp);
     //    return rec(nums,0);  
+    }
+
+    int bottom_Up(int[] nums,int i,int[] dp){
+        // if(i>=nums.length) return 0;
+        if(nums.length==1) return nums[0];
+        if(nums.length==2) return Math.max(nums[1],nums[0]);
+        dp[0] =nums[0];
+        dp[1]= Math.max(nums[1],nums[0]);
+        for( i=2;i<nums.length;i++){
+            dp[i]=Math.max(nums[i]+dp[i-2],dp[i-1]);
+        }
+        return dp[i-1];
     }
 
 
