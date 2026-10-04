@@ -3,13 +3,22 @@ class Solution {
        int n=nums.length;
        int[] dp=new int[n] ;
        Arrays.fill(dp,-1);
-       return rec(nums,0,dp);  
+       return top_Bottom(nums,0,dp);
+    //    return rec(nums,0);  
     }
-    int rec(int[] nums,int i,int[] dp){
+
+
+    int top_Bottom(int[] nums,int i,int[] dp){
         if(i>=nums.length) return 0;
         if(dp[i]!=-1) return dp[i];
-        dp[i]=Math.max(nums[i]+rec(nums,i+2,dp),rec(nums,i+1,dp));
+        dp[i]=Math.max(nums[i]+top_Bottom(nums,i+2,dp),top_Bottom(nums,i+1,dp));
         return dp[i];
+    }
+
+    int rec(int[] nums,int i){
+        if(i>=nums.length) return 0;
+        int sum=Math.max(nums[i]+rec(nums,i+2),rec(nums,i+1));
+        return sum;
     }
 }
 
