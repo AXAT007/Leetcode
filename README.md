@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/AXAT007/Leetcode/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/AXAT007/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0070-climbing-stairs) |
 | [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/AXAT007/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/AXAT007/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AXAT007/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -546,4 +548,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/AXAT007/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/AXAT007/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
