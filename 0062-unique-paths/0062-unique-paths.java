@@ -10,9 +10,6 @@ class Solution {
 
         // return rec(m, n, 0, 0, null);
 
-        for (int i = 0; i < m; i++) {
-            Arrays.fill(dp[i], 0);
-        }
         return bottom_Up(m - 1, n - 1, dp);
         // return no_Space(m, n);
 
