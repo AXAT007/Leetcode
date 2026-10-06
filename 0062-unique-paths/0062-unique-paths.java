@@ -1,19 +1,46 @@
 class Solution {
     public int uniquePaths(int m, int n) {
+        // return no_Space(m, n);
+
+       
         int[][] dp = new int[m][n];
 
-        // for (int i = 0; i < m; i++) {
-        //     Arrays.fill(dp[i], -1);
-        // }
+        for (int i = 0; i < m; i++) {
+            Arrays.fill(dp[i], -1);
+        }
+// return top_Down(m, n, 0, 0, dp);
 
-        // return top_Down(m, n, 0, 0, dp);
+        // return rec2(m-1, n-1);
+
+        return top_Down2(m-1, n-1, dp);
 
         // return rec(m, n, 0, 0, null);
 
-        return bottom_Up(m - 1, n - 1, dp);
-        // return no_Space(m, n);
-
+        // return bottom_Up(m - 1, n - 1, dp);
+       
     }
+
+        int rec2(int i, int j) {
+        if (i == 0 && j == 0)
+            return 1;
+        if (i < 0 || j < 0 )
+            return 0;
+        return rec2(i-1, j) +
+                rec2(i, j-1);
+    }
+
+    int top_Down2(int i, int j, int[][] dp) {
+        if (i == 0 && j == 0)
+            return 1;
+        if (i < 0 || j < 0 )
+            return 0;
+        if (dp[i][j] != -1)
+            return dp[i][j];
+
+        return dp[i][j] = top_Down2(i - 1, j, dp) +
+                top_Down2( i, j - 1, dp);
+    }
+
 
     int rec(int n, int m, int i, int j, int[][] dp) {
         if (i == n - 1 && j == m - 1)
@@ -56,6 +83,15 @@ class Solution {
     }
 
     int no_Space(int m, int n) {
+        int right=1;
+        int bottom=1;
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                int curr = bottom + right;
+                right=curr;
+            }
+            // bottom=
+        }
         return 0;
     }
 }
