@@ -10,8 +10,25 @@ class Solution {
             dp[i]=new int[triangle.get(i).size()];
             Arrays.fill(dp[i],Integer.MAX_VALUE);
         }
-        return top_Down(triangle,0,0,dp);
+        // return top_Down(triangle,0,0,dp);
+
+        return bottom_Up(triangle,dp);
         
+    }
+
+    int bottom_Up(List<List<Integer>> tri,int [][] dp){
+        int n=tri.size();
+        for(int i=n-1;i>=0;i--){
+            for(int j=0;j<tri.get(i).size();j++){
+                if(i==n-1){
+                    dp[i][j]=tri.get(i).get(j);
+                    continue;
+                }
+                dp[i][j]=Math.min(dp[i+1][j],dp[i+1][j+1])+tri.get(i).get(j);
+            }
+        }
+        return dp[0][0];
+
     }
 
     int top_Down(List<List<Integer>> tri,int i,int j,int[][] dp){
