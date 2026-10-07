@@ -1,18 +1,18 @@
 class Solution {
     public int uniquePaths(int m, int n) {
-        // return no_Space(m, n);
+        return no_Space(m, n);
 
        
-        int[][] dp = new int[m][n];
+        // int[][] dp = new int[m][n];
 
-        for (int i = 0; i < m; i++) {
-            Arrays.fill(dp[i], -1);
-        }
+        // for (int i = 0; i < m; i++) {
+            // Arrays.fill(dp[i], -1);
+        // }
 // return top_Down(m, n, 0, 0, dp);
 
         // return rec2(m-1, n-1);
 
-        return top_Down2(m-1, n-1, dp);
+        // return top_Down2(m-1, n-1, dp);
 
         // return rec(m, n, 0, 0, null);
 
@@ -67,31 +67,34 @@ class Solution {
     }
 
     int bottom_Up(int m, int n, int[][] dp) {
-        for(int i = 0;i<=m;i++){
-            dp[i][n] = 1;
-        }
-        for (int j = 0; j <= n; j++) {
-            dp[m][j] = 1;
-            
-        }
-        for (int i = m - 1; i >= 0; i--) {
-            for (int j = n - 1; j >= 0; j--) {
-                dp[i][j] = dp[i + 1][j] + dp[i][j + 1];
+        for (int i = m ; i >= 0; i--) {
+            for (int j = n ; j >= 0; j--) {
+                if(i==m && j==n) {dp[m][n]=1;continue;}
+                int right=0,down=0;
+                if(i+1<=m){
+                    down=dp[i+1][j];
+                }
+                if(j+1<=n){
+                    right=dp[i][j+1];
+                }
+                dp[i][j] = down + right;
             }
         }
         return dp[0][0];
     }
 
     int no_Space(int m, int n) {
-        int right=1;
-        int bottom=1;
-        for (int i = m - 1; i >= 0; i--) {
+       
+        int []dp=new int[n];
+        Arrays.fill(dp,1);
+        for (int i = m - 2; i >= 0; i--) {
+            int right=0;
             for (int j = n - 1; j >= 0; j--) {
-                int curr = bottom + right;
+                int curr = dp[j] + right;
                 right=curr;
+                dp[j]=right;
             }
-            // bottom=
         }
-        return 0;
+        return dp[0];
     }
 }
