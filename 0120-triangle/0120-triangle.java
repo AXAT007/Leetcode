@@ -5,16 +5,33 @@ class Solution {
         // return rec(triangle,0,0);
 
         
-        int [][]dp=new int[triangle.size()][];
-        for(int i=0;i<triangle.size();i++){
-            dp[i]=new int[triangle.get(i).size()];
-            Arrays.fill(dp[i],Integer.MAX_VALUE);
-        }
+        // int [][]dp=new int[triangle.size()][];
+        // for(int i=0;i<triangle.size();i++){
+        //     dp[i]=new int[triangle.get(i).size()];
+        //     Arrays.fill(dp[i],Integer.MAX_VALUE);
+        // }
         // return top_Down(triangle,0,0,dp);
 
-        return bottom_Up(triangle,dp);
+        // return bottom_Up(triangle,dp);
         
+        return no_Space(triangle);
     }
+
+    int no_Space(List<List<Integer>> tri){
+        int n=tri.size();
+        int [] dp= new int[tri.get(n-1).size()];
+        for(int i=n-1;i>=0;i--){
+            for(int j=0;j<tri.get(i).size();j++){
+                if(i==n-1){
+                    dp[j]=tri.get(i).get(j);
+                    continue;
+                }
+                dp[j]=Math.min(dp[j],dp[j+1])+tri.get(i).get(j);
+            }
+        }
+        return dp[0];
+    }
+
 
     int bottom_Up(List<List<Integer>> tri,int [][] dp){
         int n=tri.size();
