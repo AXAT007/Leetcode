@@ -18,9 +18,6 @@ class Solution {
         if(i==tri.size()-1 ){
             return tri.get(i).get(j);
         }
-        if(j>= tri.get(i).size()){
-            return Integer.MAX_VALUE;
-        }
         if(dp[i][j]!=Integer.MAX_VALUE) return dp[i][j];
         return dp[i][j]= tri.get(i).get(j) +Math.min(top_Down(tri,i+1,j,dp),top_Down(tri,i+1,j+1,dp));
      
