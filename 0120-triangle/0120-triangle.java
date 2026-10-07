@@ -14,8 +14,26 @@ class Solution {
 
         // return bottom_Up(triangle,dp);
         
-        return no_Space(triangle);
+        // return no_Space(triangle);
+        return no_Space2(triangle);
     }
+
+        int no_Space2(List<List<Integer>> tri){
+        int n=tri.size();
+        int i=0;
+        int [] dp= new int[tri.get(n-1).size()];
+        for(int x:tri.get(n-1)){
+            dp[i++]=x;
+        }
+        for(i=n-2;i>=0;i--){
+            for(int j=0;j<tri.get(i).size();j++){
+                
+                dp[j]=Math.min(dp[j],dp[j+1])+tri.get(i).get(j);
+            }
+        }
+        return dp[0];
+    }
+
 
     int no_Space(List<List<Integer>> tri){
         int n=tri.size();
