@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/AXAT007/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/AXAT007/Leetcode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/AXAT007/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/AXAT007/Leetcode/tree/master/0078-subsets) |
 | [0120-triangle](https://github.com/AXAT007/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AXAT007/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/AXAT007/Leetcode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/AXAT007/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/AXAT007/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AXAT007/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -345,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/AXAT007/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/AXAT007/Leetcode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/AXAT007/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0200-number-of-islands](https://github.com/AXAT007/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/AXAT007/Leetcode/tree/master/0733-flood-fill) |
