@@ -1,4 +1,45 @@
 class Solution {
+    
+    public int minimumTotal(List<List<Integer>> triangle) {
+        
+        // return rec(triangle,0,0);
+
+        
+        int [][]dp=new int[triangle.size()][];
+        for(int i=0;i<triangle.size();i++){
+            dp[i]=new int[triangle.get(i).size()];
+            Arrays.fill(dp[i],Integer.MAX_VALUE);
+        }
+        return top_Down(triangle,0,0,dp);
+        
+    }
+
+    int top_Down(List<List<Integer>> tri,int i,int j,int[][] dp){
+        if(i==tri.size()-1 ){
+            return tri.get(i).get(j);
+        }
+        if(j>= tri.get(i).size()){
+            return Integer.MAX_VALUE;
+        }
+        if(dp[i][j]!=Integer.MAX_VALUE) return dp[i][j];
+        return dp[i][j]= tri.get(i).get(j) +Math.min(top_Down(tri,i+1,j,dp),top_Down(tri,i+1,j+1,dp));
+     
+    }
+
+
+    int rec(List<List<Integer>> tri,int i,int j){
+        if(i==tri.size()-1 ){
+            return tri.get(i).get(j);
+        }
+        if(j>= tri.get(i).size()){
+            return Integer.MAX_VALUE;
+        }
+        return tri.get(i).get(j) +Math.min(rec(tri,i+1,j),rec(tri,i+1,j+1));
+    }
+
+/*
+
+
     public int minimumTotal(List<List<Integer>> triangle) {
         int [][]dp=new int[triangle.size()][];
         for(int i=0;i<triangle.size();i++){
@@ -53,4 +94,6 @@ class Solution {
     // int solve(List<List<Integer>> triangle,int sum,int row,int col){
     //     if()
     // }
+
+    */
 }
