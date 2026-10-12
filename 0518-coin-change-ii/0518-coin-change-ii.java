@@ -2,7 +2,8 @@ class Solution {
     public int change(int amount, int[] coins) {
         // return help(coins,amount,0);
 
-        return tabulation(coins,amount);
+        // return tabulation(coins,amount);
+        return no_Space(coins,amount);
             
     }
 
@@ -57,23 +58,20 @@ int no_Space(int[] coins, int amount){
     int n=coins.length;
     int[] dp=new int[amount+1];
     for(int i=0;i<=amount;i++){
-        if(i%coins[0]==0) dp[i]=i/coins[0];
-        else dp[i]=1000000000;
+        if(i%coins[0]==0) dp[i]=1;
+        else dp[i]=0;
     }
-    for(int i=0;i<n;i++){
-        for(int coin=amount;coin>=coins[i];coin--){
+    for(int i=1;i<n;i++){
+        for(int coin=0; coin<=amount;coin++){
             int notTake=dp[coin];
-            int take=100000000;
+            int take=0;
             if(coin>=coins[i]){
-                take=coin/coins[i];
-                if(dp[coin%coins[i]]!=100000000){
-                    take+=dp[coin%coins[i]];
-                }
+                take=dp[coin-coins[i]];
             }
-            dp[coin]=Math.min(take,notTake);
+            dp[coin]= (take+notTake);
         }
     }
-    return dp[amount]>=100000000? -1:dp[amount];
+    return dp[amount];
 }
    int help(int [] coins,int amount ,int i ){
         if(amount==0){
