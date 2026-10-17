@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0405-convert-a-number-to-hexadecimal](https://github.com/AXAT007/Leetcode/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0709-to-lower-case](https://github.com/AXAT007/Leetcode/tree/master/0709-to-lower-case) |
 | [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
+| [0844-backspace-string-compare](https://github.com/AXAT007/Leetcode/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AXAT007/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0990-satisfiability-of-equality-equations](https://github.com/AXAT007/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AXAT007/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/AXAT007/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/AXAT007/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/AXAT007/Leetcode/tree/master/0392-is-subsequence) |
+| [0844-backspace-string-compare](https://github.com/AXAT007/Leetcode/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/AXAT007/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/AXAT007/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/AXAT007/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -333,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/AXAT007/Leetcode/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/AXAT007/Leetcode/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AXAT007/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AXAT007/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/AXAT007/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -342,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/AXAT007/Leetcode/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/AXAT007/Leetcode/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/AXAT007/Leetcode/tree/master/0844-backspace-string-compare) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/AXAT007/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/AXAT007/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2596-check-knight-tour-configuration](https://github.com/AXAT007/Leetcode/tree/master/2596-check-knight-tour-configuration) |
