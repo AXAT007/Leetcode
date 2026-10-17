@@ -1,9 +1,9 @@
 class Solution {
 
     // this lines makes the jit warm up 
-     static{
-        for(int i=1;i<10000;i++)removeDuplicates("");
-    }
+    //  static{
+    //     for(int i=1;i<10000;i++)removeDuplicates("");
+    // }
     public static String removeDuplicates(String s) {
         return stack(s);    
     }
