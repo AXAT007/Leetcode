@@ -2,6 +2,27 @@ class Solution {
     public int[] nextGreaterElements(int[] arr) {
         ArrayDeque<Integer> st = new ArrayDeque<>();
         int n = arr.length;
+
+        int[] ans = new int[n];
+        Arrays.fill(ans, -1);
+
+        for (int i = 0; i < 2 * n; i++) {
+
+            while (!st.isEmpty() && arr[st.peek()] < arr[i % n]) {
+
+                ans[st.pop()] = arr[i % n];
+
+            }
+            if (i < n)
+                st.push(i % n);
+        }
+        return ans;
+
+    }
+
+    int[] fxn2(int[] arr) {
+        ArrayDeque<Integer> st = new ArrayDeque<>();
+        int n = arr.length;
         int[] ans = new int[n];
         Arrays.fill(ans, -1);
 
@@ -22,12 +43,12 @@ class Solution {
                 if (ans[j] == -1) {
                     ans[j] = arr[i];
                 }
-            } 
+            }
         }
         return ans;
     }
 
-    int[] fxn2(int[] nums) {
+    int[] fxn1(int[] nums) {
         ArrayDeque<Integer> st = new ArrayDeque<>();
         int n = nums.length;
         int[] arr = new int[n * 2];
@@ -52,7 +73,7 @@ class Solution {
     }
 
     // wrong ans
-    public int[] fxn1(int[] nums) {
+    public int[] fxn(int[] nums) {
         ArrayDeque<Integer> st = new ArrayDeque<>();
         int n = nums.length;
         int[] ans = new int[n];
