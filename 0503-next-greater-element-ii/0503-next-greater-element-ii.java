@@ -12,24 +12,15 @@ class Solution {
                 ans[st.pop()] = arr[i];
 
             }
-            // if (!st.isEmpty() && arr[st.peek()] < arr[i]) {
-            //      int j=st.pop();
-            //     if ( ans[j ] == -1) {
-            //         ans[ j] = arr[i];
-            //     }
-            // }
-            // if(i<n) st.push(i);
             st.push(i);
         }
 
         for (int i = 0; i < n; i++) {
 
             while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
-                while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
-                    int j = st.pop();
-                    if (ans[j] == -1) {
-                        ans[j] = arr[i];
-                    }
+                int j = st.pop();
+                if (ans[j] == -1) {
+                    ans[j] = arr[i];
                 }
             }
             st.push(i);
