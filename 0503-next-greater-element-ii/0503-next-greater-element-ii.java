@@ -5,6 +5,35 @@ class Solution {
         int[] arr = new int[n * 2];
         for (int i = 0; i < n; i++) {
             arr[i] = nums[i];
+            arr[i +n ] = nums[i];
+        }
+        int[] ans = new int[n];
+        Arrays.fill(ans, -1);
+
+        for (int i = 0; i < 2 * n; i++) {
+
+            while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
+                
+                ans[st.pop()] = arr[i];
+
+            }
+            if (!st.isEmpty() && arr[st.peek()] < arr[i]) {
+                 int j=st.pop();
+                if ( ans[j ] == -1) {
+                    ans[ j] = arr[i];
+                }
+            }
+            if(i<n) st.push(i);
+        }
+        return ans;
+    }
+    
+    int[] fxn2(int[] nums) {
+        ArrayDeque<Integer> st = new ArrayDeque<>();
+        int n = nums.length;
+        int[] arr = new int[n * 2];
+        for (int i = 0; i < n; i++) {
+            arr[i] = nums[i];
             arr[i + n] = nums[i];
         }
         int[] ans = new int[n];
@@ -17,19 +46,13 @@ class Solution {
                 ans[st.pop()] = arr[i];
 
             }
-            // if (!st.isEmpty() && arr[st.peek()] < arr[i]) {
-            //     int j = st.pop();
-            //     if (j >= n && ans[j / 2] == -1) {
-            //         ans[j / 2] = arr[i];
-            //     } else if (j < n) {
-            //         ans[j] = arr[i];
-            //     }
-            // }
             if(i<n) st.push(i);
         }
         return ans;
     }
 
+
+    // wrong ans
     public int[] fxn1(int[] nums) {
         ArrayDeque<Integer> st = new ArrayDeque<>();
         int n = nums.length;
