@@ -22,8 +22,7 @@ class Solution {
                 if (ans[j] == -1) {
                     ans[j] = arr[i];
                 }
-            }
-            st.push(i);
+            } 
         }
         return ans;
     }
