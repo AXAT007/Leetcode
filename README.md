@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/AXAT007/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0494-target-sum](https://github.com/AXAT007/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/AXAT007/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AXAT007/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/AXAT007/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0605-can-place-flowers](https://github.com/AXAT007/Leetcode/tree/master/0605-can-place-flowers) |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/AXAT007/Leetcode/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/AXAT007/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AXAT007/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/AXAT007/Leetcode/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/AXAT007/Leetcode/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AXAT007/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -617,4 +619,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/AXAT007/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AXAT007/Leetcode/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
