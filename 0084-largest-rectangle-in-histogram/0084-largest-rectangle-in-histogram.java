@@ -26,29 +26,45 @@ class Solution {
             }
             st.push(i);
         }
-        for (int i = 0; i < n; i++) {
-            int width=1;
+
+        // mien 
+
+        // for (int i = 0; i < n; i++) {
+        //     int width=1;
+        //     int a = nextSmaller[i];
+        //     int b = prevSmaller[i];
+
+        //     if (a !=-1) {
+        //         width += a-i;
+        //     }
+        //     else{
+        //         width+=n-i-1;
+        //     }
+
+        //     if (b !=-1) {
+        //         width +=i- b;
+        //     }
+        //     else{
+        //         width+=i;
+        //     }
+
+        //     ans = Math.max(ans, heights[i] * width);
+        // } 
+
+                for (int i = 0; i < n; i++) {
             int a = nextSmaller[i];
             int b = prevSmaller[i];
 
-            if (a !=-1) {
-                width += a-i;
-            }
-            else{
-                width+=n-i-1;
+            if (a ==-1) {
+                 a=n-1;
             }
 
-            if (b !=-1) {
-                width +=i- b;
-            }
-            else{
-                width+=i;
+            if (b ==-1) {
+                b=0;
             }
 
-            ans = Math.max(ans, heights[i] * width);
-        }
-        //         System.out.println(Arrays.toString(prevSmaller));
-        // System.out.println(Arrays.toString(nextSmaller));
+            ans = Math.max(ans, heights[i] *(a-b+1) );
+        } 
 
         return ans;
     }
