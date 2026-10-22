@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/AXAT007/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/AXAT007/Leetcode/tree/master/0394-decode-string) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/AXAT007/Leetcode/tree/master/0405-convert-a-number-to-hexadecimal) |
+| [0516-longest-palindromic-subsequence](https://github.com/AXAT007/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0709-to-lower-case](https://github.com/AXAT007/Leetcode/tree/master/0709-to-lower-case) |
 | [0721-accounts-merge](https://github.com/AXAT007/Leetcode/tree/master/0721-accounts-merge) |
 | [0844-backspace-string-compare](https://github.com/AXAT007/Leetcode/tree/master/0844-backspace-string-compare) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/AXAT007/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/AXAT007/Leetcode/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/AXAT007/Leetcode/tree/master/0509-fibonacci-number) |
+| [0516-longest-palindromic-subsequence](https://github.com/AXAT007/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/AXAT007/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/AXAT007/Leetcode/tree/master/0542-01-matrix) |
 | [0746-min-cost-climbing-stairs](https://github.com/AXAT007/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
