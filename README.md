@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1470-shuffle-the-array](https://github.com/AXAT007/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/AXAT007/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1631-path-with-minimum-effort](https://github.com/AXAT007/Leetcode/tree/master/1631-path-with-minimum-effort) |
+| [2007-find-original-array-from-doubled-array](https://github.com/AXAT007/Leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2050-parallel-courses-iii](https://github.com/AXAT007/Leetcode/tree/master/2050-parallel-courses-iii) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/AXAT007/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/AXAT007/Leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/AXAT007/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1207-unique-number-of-occurrences](https://github.com/AXAT007/Leetcode/tree/master/1207-unique-number-of-occurrences) |
+| [2007-find-original-array-from-doubled-array](https://github.com/AXAT007/Leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/AXAT007/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2351-first-letter-to-appear-twice](https://github.com/AXAT007/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AXAT007/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/AXAT007/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/AXAT007/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/AXAT007/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
+| [2007-find-original-array-from-doubled-array](https://github.com/AXAT007/Leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [3536-maximum-product-of-two-digits](https://github.com/AXAT007/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/AXAT007/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/AXAT007/Leetcode/tree/master/3731-find-missing-elements) |
@@ -316,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/AXAT007/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/AXAT007/Leetcode/tree/master/0605-can-place-flowers) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AXAT007/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [2007-find-original-array-from-doubled-array](https://github.com/AXAT007/Leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/AXAT007/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Prefix Sum
 |  |
